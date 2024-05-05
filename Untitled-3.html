@@ -1,0 +1,210 @@
+<html>
+    <head>
+        <style>
+        h1 {text-align: center;}
+        h1 {font-size:70;}
+        h1 {font-family: Arial, sans-serif;}
+        
+        p {font-size: 25px;}
+        p {font-family: Arial, sans-serif;}
+        
+        p1 {font-size: 18px;}
+        p1 {font-family: Arial, sans-serif;}
+
+        </style>   
+        <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;} 
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #413f3f;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: #333;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=reset] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=Email]{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=number]{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=tel]{
+    width: 100%;
+    padding: 10px;
+    margin: 0px ;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=textarea]{
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+input[type=reset]:hover {
+  background-color: #45a049;
+}
+
+</style>
+
+    <h1>Apple</h1>
+    <title>Project 😎</title>
+    <style>
+    .topnav {
+        background-color: #000000;
+        overflow: hidden;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .topnav a {
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 25;
+        font-style:normal;
+        font-variant: small-caps;
+        font-family: Arial, sans-serif;
+    }
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .topnav a.active {
+        background-color: #4CAF50;
+        color: white;
+    }
+    
+    body {
+        background-image: url("https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg?w=1380&t=st=1704095728~exp=1704096328~hmac=78b0264ec6a1e7904c3aaa2f0fbd1f01685f4a2a09ea490f3da75bafeb29434d");
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+    .dark-mode{
+        background-image: url("https://img.freepik.com/free-vector/gradient-black-background-with-wavy-lines_23-2149151738.jpg?w=1380&t=st=1704525753~exp=1704526353~hmac=6267af8af9adc81eba29745df85c0af7851992cde5b7e9ac0e7c8d150931a89b");
+        color: white;
+    }
+    button{
+        color: white;
+        width: 200px;
+        height: 30;
+        background-color: #000000;
+        text-decoration: none;
+        font-size: 20;
+        font-style:normal;
+        font-variant: small-caps;
+        font-family: Arial, sans-serif; 
+    }
+    button:hover{
+        background-color: #4CAF50;
+    }
+</style>
+<style>
+    .box{
+margin:0 auto; 
+width:600px;
+padding:20px;
+background:#f9f9f9;
+border:2px solid #333;
+}
+</style>
+</head>
+</head>
+<body>
+    <button onclick="darkmode()">Theme</button>
+
+<div class="topnav">
+    <a href="http://127.0.0.1:3000/Untitled-1.html">Home</a>
+    <a href="http://127.0.0.1:3000/Untitled-2.html">About</a>
+    <a href="http://127.0.0.1:3000/Untitled-3.html" class="active">Book</a>
+    <a href="http://127.0.0.1:3000/Untitled-4.html">Price</a>
+    <a href="http://127.0.0.1:3000/Untitled-5.html">Contact Us</a>
+</div>
+
+<p><b>To Apply for the following Phone Fill out the Form below</b></p>
+
+<p1>
+<form>
+<b>
+    First Name: <input type="text" name="First Name" id="First Name"><br>
+    Last Name: <input type="text" name="Last Name"  id="Last Name"><br>
+    Email Address: <input type="email" name="Email Address" id="Email Address"><br>
+    Phone Number: <input type="tel" id="number" name="number" maxlength="10" size="12"><br>
+    What is your budget? $<input type="number" step=".01" min="0" name="Budget" id="Budget"><br>
+    Address: <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea><br>
+
+    Which model you want to Purchase: <select name="Which model you want to Purchase" >
+    <option value="select">--Choose from option below--</option>
+    <option value="iPhone 15 blue">iPhone 15 blue</option>
+    <option value="iPhone 15 black">iPhone 15 black</option>
+    <option value="iPhone 15 green">iPhone 15 green</option>        
+    <option value="iPhone 15 Pink">iPhone 15 Pink</option>
+    </select><br>
+
+    <input type="submit" id="submit"> 
+    <input type="reset" id="reset">
+</b>
+</p1>
+</form>
+</body>
+<script>
+    function darkmode(){
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+</script>
+</html>
+    
